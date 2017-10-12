@@ -1,7 +1,7 @@
 {
-  "name": "isw-footer-button-area",
+  "name": "communitybuildar-pfb-container",
   "description": "Material Design Polymer 2.0 Persistent footer button area.",
-  "main": "isw-footer-button-area.html",
+  "main": "communitybuildar-pfb-container.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0"
   },
