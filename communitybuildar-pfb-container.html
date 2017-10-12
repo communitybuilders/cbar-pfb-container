@@ -20,13 +20,17 @@ Area for persistent footer buttons.
         @apply --layout-horizontal;
         @apply --layout-end-justified;
 
-        padding: 6px 3px;
-        border-top: 1px solid rgba(0, 0, 0, 0.12);
+        height: 52px;
+        margin-top: 24px;
+        margin-bottom: 0;
+
         background: var(--primary-background-color);
       }
 
       ::slotted(paper-button) {
         color: var(--accent-color);
+        padding: 8px;
+        height: 36px;
       }
     </style>
     <slot></slot>
