@@ -1,7 +1,7 @@
 {
   "description": "Material Design Polymer 2.0 Persistent footer button area.",
   "name": "@cbar/communitybuildar-pfb-container",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
