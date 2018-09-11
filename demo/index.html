@@ -6,13 +6,14 @@
 
 	<title>communitybuildar-pfb-container demo</title>
 
-	<script src="../../../@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+	<script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
 
-	<script type="module" src="../../../@polymer/app-layout/app-layout.js"></script>
-	<script type="module" src="../../../@polymer/paper-button/paper-button.js"></script>
-	<script type="module" src="../../../@polymer/paper-styles/paper-styles.js"></script>
-
-	<script type="module" src="../communitybuildar-pfb-container.js"></script>
+  <script type="module">
+    import "@polymer/app-layout/app-layout.js";
+    import "@polymer/paper-button/paper-button.js";
+    import "@polymer/paper-styles/paper-styles.js";
+    import "../communitybuildar-pfb-container.js";
+  </script>
 
 	<style>
 		body {
