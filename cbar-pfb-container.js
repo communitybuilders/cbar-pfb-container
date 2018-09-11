@@ -3,17 +3,17 @@ import '@polymer/iron-flex-layout/iron-flex-layout-classes.js';
 
 
 /**
- `communitybuildar-pfb-container`
+ `cbar-pfb-container`
  Area for persistent footer buttons.
 
- <communitybuildar-pfb-container>
+ <cbar-pfb-container>
  <paper-button>Button A</paper-button>
  <paper-button>Button B</paper-button>
- </communitybuildar-pfb-container>
+ </cbar-pfb-container>
 
  @demo demo/index.html
  */
-class CommunitybuildarPersistentFooterButtonContainer extends PolymerElement {
+class CbarPersistentFooterButtonContainer extends PolymerElement {
   static get template() {
     return html`
     <style>
@@ -39,8 +39,8 @@ class CommunitybuildarPersistentFooterButtonContainer extends PolymerElement {
   }
 
   static get is() {
-      return 'communitybuildar-pfb-container';
+      return 'cbar-pfb-container';
   }
 }
 
-window.customElements.define(CommunitybuildarPersistentFooterButtonContainer.is, CommunitybuildarPersistentFooterButtonContainer);
+window.customElements.define(CbarPersistentFooterButtonContainer.is, CbarPersistentFooterButtonContainer);

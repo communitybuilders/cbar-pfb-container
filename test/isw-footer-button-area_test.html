@@ -4,26 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>communitybuildar-pfb-container test</title>
+    <title>cbar-pfb-container test</title>
 
     <script src="../../../@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
     <script src="../../../wct-browser-legacy/browser.js"></script>
 
-    <script type="module" src="../communitybuildar-pfb-container.js"></script>
+    <script type="module" src="../cbar-pfb-container.js"></script>
   </head>
   <body>
     <test-fixture id="basic">
       <template>
-        <communitybuildar-pfb-container></communitybuildar-pfb-container>
+        <cbar-pfb-container></cbar-pfb-container>
       </template>
     </test-fixture>
 
     <script type="module">
-import '../communitybuildar-pfb-container.js';
-suite('communitybuildar-pfb-container', function() {
+import '../cbar-pfb-container.js';
+suite('cbar-pfb-container', function() {
   test('instantiating the element works', function() {
     var element = fixture('basic');
-    assert.equal(element.is, 'communitybuildar-pfb-container');
+    assert.equal(element.is, 'cbar-pfb-container');
   });
 });
 </script>
